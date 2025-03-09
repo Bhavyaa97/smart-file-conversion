@@ -20,7 +20,7 @@ The **Smart Excel <> JSON Parser** is a full-stack application that provides an 
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/smart-excel-json-parser.git
+   git clone https://github.com/Bhavyaa97/smart-file-conversion.git
    ```
 2. Navigate to the project directory:
    ```bash
