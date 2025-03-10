@@ -1,14 +1,2 @@
 services:
-  - type: web
-    name: smart-excel-json-parser
-    env: docker
-    plan: free
-    repo: https://github.com/Bhavyaa97/smart-file-conversion.git
-    region: oregon
-    branch: main
-    rootDir: .
-    dockerContext: .
-    dockerfilePath: ./Dockerfile
-    envVars:
-      - key: PORT
-        value: 8080
+  - { type: web, name: smart-excel-json-parser, env: docker, plan: free, repo: https://github.com/Bhavyaa97/smart-file-conversion.git, region: oregon, branch: main, rootDir: ., dockerContext: ., dockerfilePath:  , envVars: [ { key: PORT, value: 8080 } ] }
