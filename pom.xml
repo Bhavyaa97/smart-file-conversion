@@ -8,7 +8,7 @@
 		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.loophealth</groupId>
+	<groupId>com</groupId>
 	<artifactId>smart-excel-json-parser</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Smart Excel JSON Parser</name>
