@@ -5,7 +5,7 @@ FROM openjdk:21-jdk-slim
 WORKDIR /app
 
 # Copy the JAR file from the target folder
-COPY ./target/smart-excel-json-parser-0.0.1-SNAPSHOT.jar app.jar
+COPY /target/smart-excel-json-parser-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the port (Render uses PORT environment variable)
 EXPOSE 8080
